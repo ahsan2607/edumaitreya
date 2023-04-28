@@ -16,6 +16,7 @@ export default function Banner() {
             <figure className="text-center">
               <blockquote className="blockquote">
                 <h1>KOMUNITAS SIRARU</h1>
+                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis error maiores perferendis architecto assumenda, quos cupiditate omnis numquam totam consequuntur sed tenetur natus optio ad iste provident, laboriosam repudiandae corrupti?</h3>
               </blockquote>
             </figure>
           </div>
