@@ -9,8 +9,8 @@ export default function NavigationBar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white shadow shadow-sm fixed-top" style={{ width : "100vw" }}>
       <div className="container ms-auto">
         <img src={LogoSiraru} className="img-fluid logo-nav" alt="" />
-        <a className="navbar-brand fw-bold" href="#" style={{ fontSize: 24, color: "#26a01a", marginLeft: 8 }}>
-          SIRARU
+        <a className="navbar-brand fw-bold" href="#" style={{ fontSize: 20, color: "#3763a4", marginLeft: 8 }} onClick={() => setIndex(0)}>
+          EDUMAITREYA
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -18,8 +18,8 @@ export default function NavigationBar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className={index === 1 ? "selected-nav" : "unselected-nav" }>
-              <a className={"nav-link fw-bolder nav-menu" + (index === 1 ? " active-nav" : "")} href="#" onClick={() => setIndex(1)}>
-                Beranda
+              <a className={"nav-link fw-bolder nav-menu" + (index === 1 ? " active-nav" : "")} href="#about" onClick={() => setIndex(1)}>
+                Our Dream
               </a>
               <div className={index === 1 ? "selection-active-nav" : "selection-nav" }></div>
             </li>
@@ -47,28 +47,22 @@ export default function NavigationBar() {
               </ul>
             </li> */}
             <li className={index === 2 ? "selected-nav" : "unselected-nav" }>
-              <a className={"nav-link fw-bolder nav-menu" + (index === 2 ? " active-nav" : "")} href="#" onClick={() => setIndex(2)}>
-                Tentang
+              <a className={"nav-link fw-bolder nav-menu" + (index === 2 ? " active-nav" : "")} href="#services" onClick={() => setIndex(2)}>
+                Services
               </a>
               <div className={index === 2 ? "selection-active-nav" : "selection-nav" }></div>
             </li>
             <li className={index === 3 ? "selected-nav" : "unselected-nav" }>
-              <a className={"nav-link fw-bolder nav-menu" + (index === 3 ? " active-nav" : "")} href="#" onClick={() => setIndex(3)}>
-                Program
+              <a className={"nav-link fw-bolder nav-menu" + (index === 3 ? " active-nav" : "")} href="#teams" onClick={() => setIndex(3)}>
+                Teams
               </a>
               <div className={index === 3 ? "selection-active-nav" : "selection-nav" }></div>
             </li>
             <li className={index === 4 ? "selected-nav" : "unselected-nav" }>
-              <a className={"nav-link fw-bolder nav-menu" + (index === 4 ? " active-nav" : "")} href="#" onClick={() => setIndex(4)}>
-                Galeri
+              <a className={"nav-link fw-bolder nav-menu" + (index === 4 ? " active-nav" : "")} href="#contact" onClick={() => setIndex(4)}>
+                Contact
               </a>
               <div className={index === 4 ? "selection-active-nav" : "selection-nav" }></div>
-            </li>
-            <li className={index === 5 ? "selected-nav" : "unselected-nav" }>
-              <a className={"nav-link fw-bolder nav-menu" + (index === 5 ? " active-nav" : "")} href="#" onClick={() => setIndex(5)}>
-                Kontak
-              </a>
-              <div className={index === 5 ? "selection-active-nav" : "selection-nav" }></div>
             </li>
           </ul>
         </div>

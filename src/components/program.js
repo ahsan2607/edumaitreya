@@ -3,13 +3,13 @@ import BannerImage2 from "./../images/banner/banner1.png";
 import BannerImage3 from "./../images/banner/banner2.png";
 export default function Program() {
   return (
-    <div className="fitting-content" style={{ backgroundColor: "#eeeeee" }} id="program">
+    <div className="fitting-content" style={{ backgroundColor: "#eeeeee" }} id="team">
       <div className="container" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
         <div className="title-container" data-aos="fade-up">
           <h2 className="text-center fw-bold">PROGRAM SIRARU</h2>
         </div>
         <div className="row py-4">
-          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <div className="col-md-12">
             <div className="program-container my-2" data-aos="fade-right">
               <div className="row">
                 <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12">
@@ -44,6 +44,8 @@ export default function Program() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="col-md-12">
             <div className="program-container my-2" data-aos="fade-left">
               <div className="row">
                 <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12">
@@ -78,7 +80,9 @@ export default function Program() {
                 </div>
               </div>
             </div>
-            <div className="program-container my-2" data-aos="fade-right">
+            </div>
+          <div className="col-md-12">
+          <div className="program-container my-2" data-aos="fade-right">
               <div className="row">
                 <div className="col-xl-5 col-lg-12 col-md-12 col-sm-12">
                   <img className="img-fluid mt-3 mb-3" src={BannerImage3} alt=""/>
