@@ -17,27 +17,65 @@ import Brand from "./../images/logo/siraru.png";
 //   });
 // });
 
-export default function AboutUs() {
+export default function Service() {
   return (
-    <div className="fitting-content" id="about">
+    <div className="fitting-content" style={{ backgroundColor: "#eeeeee" }} id="services">
       <div className="container" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
         <div className="title-container" data-aos="fade-up">
-          <h3 className="text-center fw-bold">OUR DREAM</h3>
+          <h3 className="text-center fw-bold">OUR SERVICES</h3>
         </div>
-        <div className="row">
-          <div className="col-md-10 py-5">
-            <div className="card secondary-card" data-aos="fade-left">
-              <div className="card-body">
-                <p className="card-text">"Tujuan dari Edumaitreya ini sebenarnya apa ya kak? Kenapa Edumaitreya didirikan?"</p>
+        <div className="row py-4">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
+            <div className="card secondary-card" data-aos="zoom-in">
+              <div className="card-body text-center">
+                <div className="card-icon"></div>
+                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
               </div>
             </div>
           </div>
-          <div className="col-md-2" />
-          <div className="col-md-2" />
-          <div className="col-md-10 pb-5">
-            <div className="card primary-card" data-aos="fade-right">
-              <div className="card-body">
-                <p className="card-text">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim explicabo corrupti, veritatis, qui velit odit facere consequuntur laboriosam incidunt officiis assumenda accusamus illum maxime laborum odio quae culpa! Consectetur, eveniet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, eligendi culpa animi officiis, ducimus nobis earum cum consequuntur nulla, veritatis doloremque. Nisi dolores hic repellat? Officiis magni ullam cumque nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odit, earum a perferendis quam eum deserunt, quo fugit totam accusamus rerum! Voluptatibus tempora rerum nesciunt veniam et nemo in vero."</p>
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
+            <div className="card primary-card" data-aos="zoom-out">
+              <div className="card-body text-center">
+                <div className="card-icon"></div>
+                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
+            <div className="card secondary-card" data-aos="zoom-in">
+              <div className="card-body text-center">
+                <div className="card-icon"></div>
+                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
+            <div className="card primary-card" data-aos="zoom-out">
+              <div className="card-body text-center">
+                <div className="card-icon"></div>
+                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
+            <div className="card secondary-card" data-aos="zoom-in">
+              <div className="card-body text-center">
+                <div className="card-icon"></div>
+                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
+            <div className="card primary-card" data-aos="zoom-out">
+              <div className="card-body text-center">
+                <div className="card-icon"></div>
+                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
               </div>
             </div>
           </div>

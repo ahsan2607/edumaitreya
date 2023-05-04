@@ -4,9 +4,10 @@ import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import NavigationBar from './components/navbar.js';
-import Banner from './components/banner.js';
+import Carousel from './components/carousel.js';
 import AboutUs from './components/about.js';
-import Program from './components/program.js';
+import Service from './components/service.js';
+import Team from './components/team.js';
 import Footer from './components/footer.js';
 
 function App() {
@@ -16,9 +17,10 @@ function App() {
   return (
     <div>
     <NavigationBar />
-    <Banner/>
+    <Carousel/>
     <AboutUs/>
-    <Program/>
+    <Service/>
+    <Team/>
     <Footer/>
     </div>
   );
