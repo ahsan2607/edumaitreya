@@ -20,15 +20,15 @@ import Brand from "./../images/logo/siraru.png";
 export default function AboutUs() {
   return (
     <div className="fitting-content" id="about">
-      <div className="container" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
+      <div className="container" style={{ paddingTop: "8rem", paddingBottom: "3rem" }}>
         <div className="title-container" data-aos="fade-up">
-          <h3 className="text-center fw-bold">OUR DREAM</h3>
+          <h3 className="text-center fw-bold">"Pendidikan yang layak adalah hak anak"</h3>
         </div>
         <div className="row">
           <div className="col-md-10 py-5">
             <div className="card secondary-card" data-aos="fade-left">
               <div className="card-body">
-                <p className="card-text">"Tujuan dari Edumaitreya ini sebenarnya apa ya kak? Kenapa Edumaitreya didirikan?"</p>
+                <p className="card-text center">Kami berkomitmen memberikan yang terbaik untuk memaksimalkan bakat, minat dan potensi anak melalui pendidikan yang menyenangkan dan relevan dengan perkembangan jaman.</p>
               </div>
             </div>
           </div>
@@ -37,7 +37,24 @@ export default function AboutUs() {
           <div className="col-md-10 pb-5">
             <div className="card primary-card" data-aos="fade-right">
               <div className="card-body">
-                <p className="card-text">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim explicabo corrupti, veritatis, qui velit odit facere consequuntur laboriosam incidunt officiis assumenda accusamus illum maxime laborum odio quae culpa! Consectetur, eveniet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, eligendi culpa animi officiis, ducimus nobis earum cum consequuntur nulla, veritatis doloremque. Nisi dolores hic repellat? Officiis magni ullam cumque nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odit, earum a perferendis quam eum deserunt, quo fugit totam accusamus rerum! Voluptatibus tempora rerum nesciunt veniam et nemo in vero."</p>
+              <p className="card-text">Pendidikan yang relevan adalah pendidikan yang tidak hanya mengajarkan pengetahuan, menghafalkan informasi, dan/atau cekatan dalam menyelesaikan soal melainkan pendidikan yang mampu mendidik anak untuk memiliki ketrampilan yang dibutuhkan untuk bertahan dalam dunia yang berubah dengan cepat.</p>
+                <p className="card-text">Ketrampilan ini meliputi: Pemikiran Kritis(Critical Thinking), Kreatifitas (Creativity), Komunikasi (Communication), dan Kolaborasi(Collaboration).</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-10 py-5">
+            <div className="card secondary-card" data-aos="fade-left">
+              <div className="card-body">
+                <p className="card-text center">Kesalahan dalam pendidikan anak usia dini dapat menghambat perkembangan anak dikemudian hari.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-2" />
+          <div className="col-md-2" />
+          <div className="col-md-10 pb-5">
+            <div className="card primary-card" data-aos="fade-right">
+              <div className="card-body">
+                <p className="card-text">Pondasi adalah elemen penting yang memainkan peran kunci dalam menentukan kestabilan dan kekuatan bangunan. Pondasi yang kuat dan kokoh dapat mendukung struktur bangunan yang rumit dan berat untuk bertahan selama bertahun-tahun. Seperti halnya pondasi bangunan, pendidikan usia dini membangun dasar yang kokoh bagi anak-anak untuk mengembangkan potensi mereka di masa depan. Tanpa pondasi yang kokoh, anak-anak mungkin kesulitan untuk belajar dan berkembang di kemudian hari.</p>
               </div>
             </div>
           </div>

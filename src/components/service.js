@@ -20,17 +20,18 @@ import Brand from "./../images/logo/siraru.png";
 export default function Service() {
   return (
     <div className="fitting-content" style={{ backgroundColor: "#eeeeee" }} id="services">
-      <div className="container" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
+      <div className="container" style={{ paddingTop: "8rem", paddingBottom: "3rem" }}>
         <div className="title-container" data-aos="fade-up">
-          <h3 className="text-center fw-bold">OUR SERVICES</h3>
+          <h3 className="text-center fw-bold">SERVICES</h3>
         </div>
         <div className="row py-4">
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
             <div className="card secondary-card" data-aos="zoom-in">
               <div className="card-body text-center">
                 <div className="card-icon"></div>
-                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
+                <h5 className="card-title fw-bold">Science & Math</h5>
+                <p className="card-text">Edumaitreya menyediakan program pembelajaran dengan kerangka ajar STEM (Science, Technology, Engineering, and Math) yang menyenangkan dengan melibatkan eksperiment.</p>
+                <p className="card-text">Melalui program ini anak anda akan didik untuk menjadi pribadi yang cerdas, kritis, dan serta memiliki kemampuan untuk melakukan observasi, analisis, pemecahan masalah dan penggunaan teknologi</p>
               </div>
             </div>
           </div>
@@ -38,8 +39,9 @@ export default function Service() {
             <div className="card primary-card" data-aos="zoom-out">
               <div className="card-body text-center">
                 <div className="card-icon"></div>
-                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
+                <h5 className="card-title fw-bold">Languange</h5>
+                <p className="card-text">Saat ini kami telah bekerjasama dengan beberapa guru profesional yang siap membimbing anak anda dalam penguasaan bahasa inggris, mandarin, dan jepang.</p>
+                <p className="card-text">Bahasa asing tidak hanya membuka peluang dalam berkarir, tetapi juga membantu mengembangkan kemampuan komunikasi dan memahami budaya berbeda.</p>
               </div>
             </div>
           </div>
@@ -47,35 +49,9 @@ export default function Service() {
             <div className="card secondary-card" data-aos="zoom-in">
               <div className="card-body text-center">
                 <div className="card-icon"></div>
-                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
-            <div className="card primary-card" data-aos="zoom-out">
-              <div className="card-body text-center">
-                <div className="card-icon"></div>
-                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
-            <div className="card secondary-card" data-aos="zoom-in">
-              <div className="card-body text-center">
-                <div className="card-icon"></div>
-                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 py-3">
-            <div className="card primary-card" data-aos="zoom-out">
-              <div className="card-body text-center">
-                <div className="card-icon"></div>
-                <h5 className="card-title fw-bold">Lorem Ipsum</h5>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, dolorum repellendus provident voluptates et tenetur! Exercitationem nemo sapiente vel ea eligendi rerum, nesciunt minima. Optio, aut cum. Soluta, nostrum!</p>
+                <h5 className="card-title fw-bold">Social Science</h5>
+                <p className="card-text">Edumaitreya menyediakan program pembelajaran dengan kerangka ajar Social Science bagi anak-anak yang tidak tertarik dengan topik-topik STEM tetapi lebih tertarik dengan fenomena sosial.</p>
+                <p className="card-text">Belajar fenomena sosial dapat menjadi asik, menarik, dan bermanfaat bagi anak jika dikemas dalam bentuk diskusi, kerja kelompok, riset sosial, dan bermain peran. Belajar tidak lagi membosankan.</p>
               </div>
             </div>
           </div>

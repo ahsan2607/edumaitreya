@@ -1,5 +1,5 @@
 import { useState } from "react";
-import LogoSiraru from "./../images/logo/siraru.png";
+import MaitreyaLogo from "./../images/logo/MaitreyaSquare.png";
 
 export default function NavigationBar() {
 
@@ -8,7 +8,7 @@ export default function NavigationBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white shadow shadow-sm fixed-top" style={{ width : "100vw" }}>
       <div className="container ms-auto">
-        <img src={LogoSiraru} className="img-fluid logo-nav" alt="" />
+        <img src={MaitreyaLogo} className="img-fluid logo-nav" alt="" />
         <a className="navbar-brand fw-bold" href="#" style={{ fontSize: 20, color: "#3763a4", marginLeft: 8 }} onClick={() => setIndex(0)}>
           EDUMAITREYA
         </a>
