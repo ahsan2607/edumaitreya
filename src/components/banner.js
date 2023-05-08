@@ -1,7 +1,7 @@
 import { useState } from "react";
-import BannerImage1 from "./../images/banner/banner.png";
-import BannerImage2 from "./../images/banner/banner1.png";
-import BannerImage3 from "./../images/banner/banner2.png";
+import Image1 from "./../images/banner/1.png";
+import Image2 from "./../images/banner/2.png";
+import Image3 from "./../images/banner/3.png";
 import FrontImage1 from "./../images/banner/frimage.png";
 
 export default function Banner() {
@@ -9,7 +9,7 @@ export default function Banner() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="banner center min-vh-100" style={count === 1 ? { backgroundImage: `url(${BannerImage2})` } : count === -1 ? { backgroundImage: `url(${BannerImage3})` } : { backgroundImage: `url(${BannerImage1})` }} id="banner">
+    <div className="banner center min-vh-100" style={count === 1 ? { backgroundImage: `url(${Image3})` } : count === -1 ? { backgroundImage: `url(${Image2})` } : { backgroundImage: `url(${Image1})` }} id="banner">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
